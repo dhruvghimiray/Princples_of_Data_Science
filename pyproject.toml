@@ -1,0 +1,17 @@
+[project]
+name = "princples-of-data-science"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dhruvghimiray", email = "dhruvg0231@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+princples-of-data-science = "princples_of_data_science:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
